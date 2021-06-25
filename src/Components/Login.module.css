@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.form > * {
+  margin: 0.5rem;
+}
+.form input {
+  height: 2rem;
+  width: 15rem;
+  border: 1px solid #d1d1d1;
+  background-color: #181818;
+  color: #d1d1d1;
+  border-radius: 0.1rem;
+}
+
+.form button {
+  padding: 0.2em;
+  width: 5rem;
+}
